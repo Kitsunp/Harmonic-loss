@@ -89,10 +89,6 @@ The paper suggests $n \approx \sqrt{N}$ for stability. If you stay with $\log(d^
 3.  **Reconstruction**: $d^2=\lVert X\rVert^2+\lVert W\rVert^2-2y$.
 4.  **Clamp + log**: set harmonic logits as $z=-n\log d$ with the exponent fix described above.
 
-## License and credits
-
-Based on the original Harmonic Loss formulation and on documented compute optimizations for scalable implementation.
-
 ## References
 
 *   Baek, Liu, Tyagi, Tegmark. *Harmonic Loss Trains Interpretable AI Models*. arXiv:2502.01628v2, 2025.
